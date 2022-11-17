@@ -1,4 +1,43 @@
-img {
+* {
+    margin: 0;
+    font-family: Tahoma;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #5b00fd;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+.main-container {
+    box-shadow: 0 0 6vw 15vw #EFC30A;
+    border-radius: 9vw;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    background-color: white;
+    margin: 9vh;
+    padding: 9vh;
+}
+
+.logo {
     height: 20vh;
     object-fit: contain;
+}
+
+h1 {
+    margin: 6vh 0;
+}
+
+p {
+    font-size: 3vh;
+    margin: 1vh 0;
+}
+
+iframe {
+    margin: 6vh 0;
 }
