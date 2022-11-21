@@ -39,5 +39,14 @@ p {
 }
 
 iframe {
-    margin: 6vh 0;
+    margin: 9vh 0;
+}
+
+.links {
+    img {
+        height: 8vh;
+        object-fit: contain;
+        margin: 1vh 0.75vw;
+        filter: invert(14%) sepia(96%) saturate(7490%) hue-rotate(266deg) brightness(89%) contrast(128%);
+    }
 }
